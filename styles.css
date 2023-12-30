@@ -1,0 +1,108 @@
+body{
+    background-image: url('./assets/poyoy.JPG');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+h1{
+    text-transform: uppercase;
+    color: white;
+    font-family: Roboto Slab;
+    margin-left: 50px;
+}
+.navItem{
+    display: inline-block;
+    padding: 0px 10px;
+}
+.navLink:hover{
+    color: rgb(209, 138, 7);
+    transition: ease-in-out;
+    text-decoration: underline;
+    text-underline-offset: .50rem;
+}
+p{
+    color: white;
+    font-size: medium;
+    font-family: Verdana, sans-serif;
+    /* margin-right: 20%; */
+    font-size: large;
+    font-family: Poppins;
+}
+.home{
+    margin-left: 60px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    background-attachment: fixed;
+    justify-content: space-between;
+    padding: 10px 5%;
+    font-size: 25px;
+}
+.ul{
+    display: flex;
+    align-items: center;
+    background-color: rgb(65, 65, 65);
+}
+.menu{
+    font-family: Poppins;
+    color: white;
+}
+.logo{
+    color: white;
+    font-family: Fredoka, Roboto Slab;
+    font-size: 30px;
+}
+.logo:hover{
+    color: rgb(209, 138, 7);
+}
+a{
+    color: white;
+}
+.aboutImg{
+    margin-left: 6rem;
+    border: 5px none black;
+    border-radius: 1rem;
+}
+.box{
+    background-color: blue;
+    font-size: 55px;
+    padding: 0px .50rem;
+}
+.readerStory{
+    margin: 1em 4rem;
+}
+.reader{
+    background-color: #343541;
+}
+.galleryImg{
+    /* margin: 40px 4em ; */
+    border-radius: 2em;
+    padding: 10px;
+    box-shadow: -30px 30px 20px rgba(0, 0, 0, 0, 0.3);
+    /* width: 100%; */
+    /* display: flex;
+    float: left;
+    height: auto; 
+    width: 360px;*/
+}
+.galleryBox{
+    display:flex;
+    flex-direction: column;
+    width: 32.5%;
+}
+.galleryContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 20px 0px 40px;
+}
+.gallery{
+    background-color: #343541;
+        /* float: flex;
+    margin: 0;
+    padding: 0; */
+    /* box-sizing: border-box; */
+}
